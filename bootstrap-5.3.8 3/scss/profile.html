@@ -13,12 +13,83 @@
       <div class="container-fluid">
         <a class="navbar-brand" href="./index.html">
           <img
-            src="https://www.shutterstock.com/search/default-user-avatar"
+            src="./IMGSNETFLIX/netflix_logo.png"
             alt="Netflix logo"
             width="100"
           />
         </a>
       </div>
     </nav>
+    <div class="container py-5">
+      <h1 class="mb-4">Edit Profile</h1>
+      <hr class="border-secondary" />
+      <div class="row">
+        <div class="col-md-3 text-center mb-4 mb-md-0">
+          <img
+            src="./IMGSNETFLIX/Unknown_person.jpg"
+            alt="Profile Avatar"
+            class="img-fluid rounded"
+          />
+        </div>
+
+        <!--Impostazioni-->
+        <div class="mb-4">
+          <input
+            type="text"
+            class="form-control bg-dark text-white mb-3 border-secondary"
+            placeholder="Profile Name"
+          />
+          <!--Lingua-->
+          <div class="mb-4">
+            <label class="form-label">Language:</label>
+            <select
+              class="form-select bg-dark text-white border-secondary"
+              style="max-width: 250px"
+            >
+              <option selected>English</option>
+              <option>Italiano</option>
+              <option>Español</option>
+            </select>
+          </div>
+          <!--Maturity Settings-->
+          <div class="mb-4">
+            <h5>Maturity Settings:</h5>
+            <p class="text-secondary small">ALL MATURITY RATINGS</p>
+            <button class="btn btn-outline-light btn-sm">EDIT</button>
+          </div>
+
+          <!--Autoplay Controls-->
+          <div class="mb-4">
+            <h5>Autoplay controls</h5>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" checked />
+              <label class="form-check-label"
+                >Autoplay next episode in a series on all devices.</label
+              >
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" checked />
+              <label class="form-check-label"
+                >Autoplay previews while browsing on all devices.</label
+              >
+            </div>
+          </div>
+          <!--Final buttons-->
+          <div class="d-flex gap-3 mt-4">
+            <button class="btn btn-light">SAVE</button>
+            <button class="btn btn-outline-light">CANCEL</button>
+            <button class="btn btn-outline-danger">DELETE PROFILE</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Footer-->
+    <footer class="mt-5 text-center text-secondary">
+      <div class="container">
+        <p class="small mb-0">© 2025 Netflix Clone – Educational Use Only</p>
+      </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
